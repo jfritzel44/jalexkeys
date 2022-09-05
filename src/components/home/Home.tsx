@@ -85,10 +85,12 @@ export default function Home() {
 
           <div className="space"></div>
 
-          <ReactPlayer
-            width={"100%"}
-            url="https://youtube.com/shorts/Tauiq6zKEF0?feature=share"
-          />
+          <div className="second-video">
+            <ReactPlayer
+              width={"100%"}
+              url="https://youtube.com/shorts/Tauiq6zKEF0?feature=share"
+            />
+          </div>
 
           <div className="space"></div>
         </Col>
