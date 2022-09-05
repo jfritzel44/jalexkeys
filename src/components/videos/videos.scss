@@ -1,0 +1,21 @@
+.videos-container {
+  background-color: black;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.videos-container-main {
+  background-color: black;
+}
+
+@media (max-width: 825px) {
+  .videos-container {
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .videos-container-main {
+    background-color: black;
+  }
+}

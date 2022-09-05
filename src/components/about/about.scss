@@ -1,0 +1,60 @@
+.demo-wrap {
+  position: relative;
+}
+
+.demo-wrap:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-image: url("https://assets.digitalocean.com/labs/images/community_bg.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+h3 {
+  line-height: 2;
+}
+
+.about-container {
+  display: inline;
+}
+
+.about-imgs {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+
+  .about-img-1 {
+    width: 400px;
+    padding-right: 20px;
+  }
+
+  .about-img-2 {
+    width: 400px;
+  }
+}
+
+.about-bio {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  color: rgb(214, 214, 214);
+  padding-left: 8%;
+  padding-right: 8%;
+  line-height: 1.3;
+  font-size: 30px;
+}
+
+.about-header {
+  margin-top: 15px;
+}
+
+.about-margin {
+  margin-top: 25px;
+}

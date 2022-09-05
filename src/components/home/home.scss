@@ -1,0 +1,167 @@
+.me {
+  width: 100%;
+}
+
+.home-welcome-photo {
+  width: 90%;
+}
+
+.subscribe {
+  color: rgb(202, 158, 13);
+}
+
+.home-latest-news {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.home-latest-news-text {
+  line-height: 1.5;
+}
+
+.home-news {
+  width: 25%;
+  margin-left: -2px;
+}
+
+.home-left-header {
+  color: rgb(29, 29, 29);
+}
+
+.home-space {
+  margin-top: 50px;
+}
+
+.left-container {
+  background-image: logo;
+  background-color: rgb(24, 20, 63);
+  color: white;
+
+  .submit-btn {
+    width: 100px;
+    cursor: pointer;
+    height: 35px;
+  }
+
+  .form-box input,
+  textarea {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 0.9vw 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+
+  .form-box textarea {
+    height: 15vh;
+  }
+
+  .form-box label {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 0 2vh 0;
+  }
+
+  .form-box h5 {
+    font-size: 35px;
+    text-align: center;
+    color: #f55a00;
+    margin: 0 0 0.5vh 0;
+  }
+}
+
+.left-container,
+.profile-container,
+.video-container {
+  height: 580px;
+  overflow: scroll;
+}
+
+.home-container .row {
+  height: 400px;
+}
+
+.profile-container {
+  max-width: 100% !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding-right: 3px !important;
+  padding-left: 3px !important;
+  padding-top: 0px !important;
+  background-color: black;
+}
+
+.video-container {
+  background-color: rgb(204, 204, 204);
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+  padding-top: 5px;
+}
+
+.header-text {
+  font-family: "refrigerator-deluxe", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: +2px;
+  text-rendering: optimizelegibility;
+  line-height: 1.6;
+}
+
+.piano-row {
+  font-family: "refrigerator-deluxe", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: +2px;
+  text-rendering: optimizelegibility;
+  line-height: 1.6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  height: 90px;
+  width: 100%;
+  color: rgb(57, 57, 57);
+  background-color: rgb(229, 229, 229);
+}
+
+.footer-bottom {
+  align-items: center;
+  background-color: hsl(0, 0%, 17%);
+  height: 100px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.bottom-insta-icon {
+  height: 30px;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+.home-submit-request {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 825px) {
+  h3 {
+    font-size: 14px;
+  }
+}
