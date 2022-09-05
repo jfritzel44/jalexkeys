@@ -2,7 +2,7 @@ import './App.scss';
 import 'hover.css/css/hover-min.css';
 
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes, useNavigate } from 'react-router-dom';
 
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -20,6 +20,7 @@ function App() {
       <Navbar></Navbar>
 
       <Routes>
+        <Route path="/" element={<Navigate replace to="/home" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/videos" element={<Videos />} />
