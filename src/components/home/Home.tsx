@@ -15,6 +15,11 @@ import logo from '../../assets/me.jpg'; // Tell webpack this JS file uses this i
 import logo2 from '../../assets/me2.jpg'; // Tell webpack this JS file uses this image
 import logo3 from '../../assets/me3.jpg'; // Tell webpack this JS file uses this image
 import logo4 from '../../assets/me4.jpg'; // Tell webpack this JS file uses this image
+import logo5 from '../../assets/me5.jpg'; // Tell webpack this JS file uses this image
+import logo6 from '../../assets/me6.jpg'; // Tell webpack this JS file uses this image
+import logo7 from '../../assets/me7.jpg'; // Tell webpack this JS file uses this image
+import logo8 from '../../assets/me8.jpg'; // Tell webpack this JS file uses this image
+import logo9 from '../../assets/me9.jpg'; // Tell webpack this JS file uses this image
 import piano from '../../assets/piano.jpg';
 
 const images = [
@@ -34,7 +39,31 @@ const images = [
     original: logo4,
     thumbnail: logo4,
   },
+  {
+    original: logo5,
+    thumbnail: logo5,
+  },
+  {
+    original: logo6,
+    thumbnail: logo6,
+  },
+  {
+    original: logo7,
+    thumbnail: logo7,
+  },
+  {
+    original: logo8,
+    thumbnail: logo8,
+  },
+  {
+    original: logo9,
+    thumbnail: logo9,
+  },
 ];
+
+function goToInsta() {
+  window.location.href = "https://www.instagram.com/jalexkeys/?hl=en";
+}
 
 export default function Home() {
   return (
@@ -63,8 +92,8 @@ export default function Home() {
           <div className="home-latest-news mt-10">
             <p className="home-latest-news-text">
               Looking for music for your commerical or video game?{" "}
-              <img className="home-email" src={email}></img>
             </p>
+            <img className="home-email" src={email}></img>
           </div>
 
           <div className="home-space"></div>
@@ -100,12 +129,12 @@ export default function Home() {
 
       <Row>
         <div className="piano-row">
-          <h3>I am a composer for films, video games, and commericals!</h3>
+          <h3>I am a composer for films, video games, and commericals</h3>
         </div>
       </Row>
 
       <Row>
-        <div className="footer-bottom">
+        <div onClick={() => goToInsta()} className="footer-bottom">
           <h3
             style={{ marginRight: 5, cursor: "pointer" }}
             className="header-text"
@@ -120,15 +149,4 @@ export default function Home() {
       </Row>
     </Container>
   );
-}
-
-{
-  /* 
-          <iframe
-            width="100%"
-            height="300"
-            scrolling="no"
-            allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1118841712%3Fsecret_token%3Ds-UyFxwj3cZNj&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-          ></iframe> */
 }

@@ -2,6 +2,7 @@ import './Nav.scss';
 import 'react-dropdown/style.css';
 
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import { faFacebook, faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -13,6 +14,18 @@ export default function Navbar() {
 
   function changeMenuState() {
     setShowMenu(!showMenu);
+  }
+
+  function goToInsta() {
+    window.location.href = "https://www.instagram.com/jalexkeys/?hl=en";
+  }
+
+  function goToFB() {
+    window.location.href = "https://www.facebook.com/alex.fritzel.1";
+  }
+
+  function goToTiktok() {
+    window.location.href = "https://www.tiktok.com/@jalexkeys";
   }
 
   return (
@@ -43,11 +56,22 @@ export default function Navbar() {
 
           <li>
             <div className="social-media-links">
-              <FontAwesomeIcon className="fa-facebook" icon={faFacebook} />
+              <FontAwesomeIcon
+                onClick={() => goToFB()}
+                className="fa-facebook"
+                icon={faFacebook}
+              />
+              <FontAwesomeIcon
+                className="fa-instagram"
+                onClick={() => goToInsta()}
+                icon={faInstagram}
+              />
 
-              <FontAwesomeIcon className="fa-instagram" icon={faInstagram} />
-
-              <FontAwesomeIcon className="fa-tiktok" icon={faTiktok} />
+              <FontAwesomeIcon
+                onClick={() => goToTiktok()}
+                className="fa-tiktok"
+                icon={faTiktok}
+              />
             </div>
           </li>
         </div>

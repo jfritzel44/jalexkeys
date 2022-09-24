@@ -28,26 +28,25 @@ export default function About() {
         <div className="about-container">
           <div className="about-bio">
             <h1 className="about-header">BIOGRAPHY</h1>
-            <h3 className="about-margin">
-              I started playing piano at the age of 6. I've studied all of the
-              great keyboardists, Stevie Wonder <br />
-              Billy Preston, Donald Fagan, and more. My father is a Jazz
-              keyboardist and at an early age I began improvising and playing
-              keyboards. I am also a singer and play and sing a range of 70s to
-              Modern Pop solo on the piano.
-            </h3>
-
-            <h3 className="about-margin">
-              Lately, I've been working songs recorded entirely with keyboards
-              (See below) -- If you need music for your movie, commerical, or
-              business, contact me! I have over 15 years of experience producing
-              and have created well over 200 songs.
-            </h3>
-
-            {/* <div className="about-imgs">
-              <img className="about-img-1" src={me2}></img>
-              <img className="about-img-2" src={me3}></img>
-            </div> */}
+            <div className="about-margin">
+              One of the greatest challenges as an artist is to get your music
+              out there <br />
+              <p>I created this website to showcase myself</p>
+              <p>
+                I mostly create songs entirely with keyboards; drums, bass,
+                traditional keyboard parts, and more. I also sing
+              </p>
+              <p>
+                I have been playing piano since I was a kid and have many
+                heroes; Stevie Wonder, Elton John, Billy Preston, Dr. John, Joey
+                Defrancesco, Chuck Leavell, and more.
+              </p>
+              <p>
+                I have been composing original music since I was 16 and have
+                started (one day hopefully all will be finished) at least 1,000
+                songs!
+              </p>
+            </div>
           </div>
         </div>
       </div>
