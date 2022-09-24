@@ -9,6 +9,7 @@ import ReactPlayer from 'react-player';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import email from '../../assets/email-png.png';
 import news from '../../assets/me-news.png';
 import logo from '../../assets/me.jpg'; // Tell webpack this JS file uses this image
 import logo2 from '../../assets/me2.jpg'; // Tell webpack this JS file uses this image
@@ -61,7 +62,8 @@ export default function Home() {
           </small>
           <div className="home-latest-news mt-10">
             <p className="home-latest-news-text">
-              Looking for music for your commerical or video game? Contact me.
+              Looking for music for your commerical or video game?{" "}
+              <img className="home-email" src={email}></img>
             </p>
           </div>
 
@@ -98,16 +100,16 @@ export default function Home() {
 
       <Row>
         <div className="piano-row">
-          <h3>
-            CUSTOM BEAUTIFUL, JAZZY, ELECTRONIC, OR FUNKY MUSIC FOR <br></br>
-            FILMS, VIDEO GAMES, AND COMMERICALS, <a href="#">CONTACT ME</a>
-          </h3>
+          <h3>I am a composer for films, video games, and commericals!</h3>
         </div>
       </Row>
 
       <Row>
         <div className="footer-bottom">
-          <h3 style={{ marginRight: 5 }} className="header-text">
+          <h3
+            style={{ marginRight: 5, cursor: "pointer" }}
+            className="header-text"
+          >
             FOLLOW ME ON INSTAGRAM
           </h3>
           <FontAwesomeIcon
