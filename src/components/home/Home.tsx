@@ -20,7 +20,6 @@ import logo6 from '../../assets/me6.jpg'; // Tell webpack this JS file uses this
 import logo7 from '../../assets/me7.jpg'; // Tell webpack this JS file uses this image
 import logo8 from '../../assets/me8.jpg'; // Tell webpack this JS file uses this image
 import logo9 from '../../assets/me9.jpg'; // Tell webpack this JS file uses this image
-import piano from '../../assets/piano.jpg';
 
 const images = [
   {
@@ -72,14 +71,14 @@ export default function Home() {
         <Col className="left-container" md={4}>
           <div className="mt-20 mb-10">
             {/* <h1 className="home-left-header">News</h1> */}
-            <img className="home-news" src={news}></img>
+            <img alt="NEWS" className="home-news" src={news}></img>
           </div>
           <small>
             <i>08/13/2021</i>
           </small>
           <div className="home-latest-news mt-10">
             <p className="home-latest-news-text">
-              Currently seeking gigs in RnB, Funk, Blues, Jazz -{" "}
+              Currently seeking gigs in Rock, RnB, Funk, Blues, Jazz -{" "}
               <b> Chicago and beyond.</b>
             </p>
           </div>
@@ -93,7 +92,11 @@ export default function Home() {
             <p className="home-latest-news-text">
               Looking for music for your commerical or video game?{" "}
             </p>
-            <img className="home-email" src={email}></img>
+            <img
+              alt="jafritzel@gmail.com"
+              className="home-email"
+              src={email}
+            ></img>
           </div>
 
           <div className="home-space"></div>
