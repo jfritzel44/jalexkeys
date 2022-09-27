@@ -10,6 +10,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from '../assets/main-logo.png'; // Tell webpack this JS file uses this image
 
 export default function Navbar() {
+  const navigate = useNavigate();
+
   let [showMenu, setShowMenu] = useState(false);
 
   function changeMenuState() {
@@ -28,6 +30,11 @@ export default function Navbar() {
     window.location.href = "https://www.tiktok.com/@jalexkeys";
   }
 
+  function goToRoute(route: string) {
+    navigate(route);
+    setShowMenu(false);
+  }
+
   return (
     <nav className="navbar">
       <img className="logo" src={logo}></img>
@@ -38,20 +45,14 @@ export default function Navbar() {
         </label>
 
         <div className={`menu ${showMenu ? "show-menu" : ""}`}>
-          <li>
-            <a className="hvr-radial-out button" href="/home">
-              HOME
-            </a>
+          <li onClick={() => goToRoute("/home")}>
+            <a className="hvr-radial-out button">HOME</a>
           </li>
-          <li>
-            <a className="hvr-radial-out button" href="/about">
-              About
-            </a>
+          <li onClick={() => goToRoute("/about")}>
+            <a className="hvr-radial-out button">About</a>
           </li>
-          <li>
-            <a className="hvr-radial-out button" href="/videos">
-              Music
-            </a>
+          <li onClick={() => goToRoute("/videos")}>
+            <a className="hvr-radial-out button">Music</a>
           </li>
 
           <li>
