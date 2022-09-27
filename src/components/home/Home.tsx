@@ -68,8 +68,8 @@ export default function Home() {
   return (
     <Container className="home-container">
       <Row>
-        <Col className="left-container" md={4}>
-          <div className="mt-20 mb-10">
+        <Col className="left-container home-bottom-margin" md={4}>
+          <div className="mt-50 mb-20">
             {/* <h1 className="home-left-header">News</h1> */}
             <img alt="NEWS" className="home-news" src={news}></img>
           </div>
