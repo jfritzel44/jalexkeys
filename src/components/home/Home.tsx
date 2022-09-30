@@ -79,6 +79,15 @@ export default function Home() {
             <img alt="NEWS" className="home-news" src={news}></img>
           </div>
           <small>
+            <i>09/29/2022</i>
+          </small>
+          <div className="home-latest-news mt-10">
+            <p className="home-latest-news-text">
+              Playing at 6935 N Sheridan Rd, Chicago IL, 60626
+            </p>
+          </div>
+
+          <small>
             <i>08/13/2021</i>
           </small>
           <div className="home-latest-news mt-10">
