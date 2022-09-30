@@ -31,10 +31,10 @@ export default function About() {
             <div className="about-margin">
               One of the greatest challenges as an artist is to get your music
               out there <br />
-              <p>I created this website to showcase myself</p>
+              <p>I created this website to showcase myself.</p>
               <p>
                 I mostly create songs entirely with keyboards; drums, bass,
-                traditional keyboard parts, and more. I also sing
+                traditional keyboard parts, and more. I also sing.
               </p>
               <p>
                 I have been playing piano since I was a kid and have many
@@ -43,8 +43,8 @@ export default function About() {
               </p>
               <p>
                 I have been composing original music since I was 16 and have
-                started (one day hopefully all will be finished) at least 1,000
-                songs!
+                started (hopefully, one day, all will be finished) at least
+                1,000 songs!
               </p>
             </div>
           </div>
