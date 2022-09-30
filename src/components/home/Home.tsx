@@ -98,17 +98,9 @@ export default function Home() {
               src={email}
             ></img>
           </div>
-
           <div className="home-space"></div>
-
-          {/* <div className="home-submit-request form-box">
-            <input placeholder="Name" type="text"></input>
-            <input placeholder="Email" type="text"></input>
-            <button className="submit-btn">Receive Gig Updates</button>
-          </div> */}
         </Col>
         <Col className="profile-container" md={4}>
-          {/* <img className="me" src={logo} /> */}
           <ImageGallery showThumbnails={false} items={images} />;
         </Col>
         <Col className="video-container" md={4}>
