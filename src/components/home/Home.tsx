@@ -78,14 +78,18 @@ export default function Home() {
             {/* <h1 className="home-left-header">News</h1> */}
             <img alt="NEWS" className="home-news" src={news}></img>
           </div>
+
           <small>
             <i>09/29/2022</i>
           </small>
           <div className="home-latest-news mt-10">
             <p className="home-latest-news-text">
-              Playing at 6935 N Sheridan Rd, Chicago IL, 60626
+              Playing at Zhanna's Art Exhibit! 6935 N Sheridan Rd, Chicago IL,
+              60626, this Saturday. 5pm start.
             </p>
           </div>
+
+          <div className="mt-20"></div>
 
           <small>
             <i>08/13/2021</i>
