@@ -41,11 +41,6 @@ export default function About() {
                 heroes; Stevie Wonder, Elton John, Billy Preston, Dr. John, Joey
                 Defrancesco, Chuck Leavell, and more.
               </p>
-              <p>
-                I have been composing original music since I was 16 and have
-                started (hopefully, one day, all will be finished) at least
-                1,000 songs!
-              </p>
             </div>
           </div>
         </div>
