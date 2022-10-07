@@ -85,6 +85,7 @@
 .profile-container,
 .video-container {
   height: 620px;
+  overflow-y: hidden;
   overflow: scroll;
 }
 
