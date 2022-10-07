@@ -37,9 +37,8 @@ export default function About() {
                 traditional keyboard parts, and more. I also sing.
               </p>
               <p>
-                I have been playing piano since I was a kid and have many
-                heroes; Stevie Wonder, Elton John, Billy Preston, Dr. John, Joey
-                Defrancesco, Chuck Leavell, and more.
+                I have many heroes; Stevie Wonder, Elton John, Billy Preston,
+                Dr. John, Joey Defrancesco, Chuck Leavell, and more.
               </p>
             </div>
           </div>
