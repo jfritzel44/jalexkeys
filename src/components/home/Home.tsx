@@ -13,6 +13,8 @@ import email from '../../assets/email-png.png';
 import news from '../../assets/me-news.png';
 import logo from '../../assets/me.jpg'; // Tell webpack this JS file uses this image
 import logo10 from '../../assets/me10.jpg'; // Tell webpack this JS file uses this image
+import logo11 from '../../assets/me11.jpg'; // Tell webpack this JS file uses this image
+import logo12 from '../../assets/me12.jpg'; // Tell webpack this JS file uses this image
 import logo2 from '../../assets/me2.jpg'; // Tell webpack this JS file uses this image
 import logo3 from '../../assets/me3.jpg'; // Tell webpack this JS file uses this image
 import logo4 from '../../assets/me4.jpg'; // Tell webpack this JS file uses this image
@@ -62,6 +64,10 @@ const images = [
   {
     original: logo10,
     thumbnail: logo10,
+  },
+  {
+    original: logo11,
+    thumbnail: logo11,
   },
 ];
 
