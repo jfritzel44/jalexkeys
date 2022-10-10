@@ -40,9 +40,19 @@ export default function Navbar() {
       <img className="logo" src={logo}></img>
 
       <ul className="nav-links">
-        <label onClick={() => changeMenuState()} className="hamburger">
-          &#9776;
-        </label>
+        {!showMenu ? (
+          <label onClick={() => changeMenuState()} className="hamburger">
+            &#9776;
+          </label>
+        ) : null}
+        {showMenu ? (
+          <label
+            onClick={() => changeMenuState()}
+            className="hamburger hamburger-margin"
+          >
+            &#9866;
+          </label>
+        ) : null}
 
         <div className={`menu ${showMenu ? "show-menu" : ""}`}>
           <li onClick={() => goToRoute("/home")}>

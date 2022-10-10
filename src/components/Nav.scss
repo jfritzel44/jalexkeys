@@ -63,7 +63,11 @@ input[type="checkbox"] {
   font-size: 24px;
   user-select: none;
 }
-/* APPLYING MEDIA QUERIES */
+
+.hamburger-margin {
+  margin-top: -12px;
+}
+/* */
 @media (max-width: 825px) {
   .menu {
     display: none;
